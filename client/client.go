@@ -16,7 +16,7 @@ func GetInputData(day int) (string, error) {
 		return "", fmt.Errorf("failed to get input: %s", err.Error())
 	}
 	
-	return string(data), nil
+	return strings.TrimSpace(string(data)), nil
 }
 
 func SubmitAnswer(day int, answer int, part int) (string, error) {

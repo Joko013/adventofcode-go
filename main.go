@@ -7,12 +7,12 @@ import (
 )
 
 func main() {
-	day := 6
-	part := 2
+	day := 3
 	inputData, _ := client.GetInputData(day)
 	// fmt.Println(inputData)
-	solution := solutions.GetSolution06(inputData, 256)
+	solution := solutions.GetSolution032(inputData)
 	fmt.Println(solution)
+	part := 2
 	response, _ := client.SubmitAnswer(day, solution, part)
 	fmt.Println(response)
 }
