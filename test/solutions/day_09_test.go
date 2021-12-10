@@ -6,7 +6,7 @@ import (
 	"github.com/Joko013/adventofcode-go/solutions"
 )
 
-func TestGetSolution(t *testing.T) {
+func TestGetSolution09(t *testing.T) {
 	inputData := `2199943210
 	3987894921
 	9856789892
