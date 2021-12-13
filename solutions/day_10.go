@@ -55,7 +55,6 @@ func checkLine(line string) (illegalChar string, openingChars []string) {
 	return "", openingChars
 }
 
-
 func isOpeningChar(c string, pairs map[string]string) (bool) {
 	for key := range pairs {
 		if c == key {
